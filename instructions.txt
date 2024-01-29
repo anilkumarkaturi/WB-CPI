@@ -1,0 +1,23 @@
+cut and paste hadoop folder in c directory
+install java in c directory by creating 'Java' directory
+both hadoop folder and java software u can find in code directory
+
+set JAVA_HOME as C:/Java
+set path as C:/Java/bin
+
+set hadoop in path in environment variable
+c:/hadoop/bin
+HADOOP_HOME
+C:/hadoop
+
+go cd/hadoop/bin and exceute command
+hdfs namenode -format
+
+now set location in command prompt
+C:/hadoop/sbin and run command start-dfs
+
+then open brwoser and enter url http://localhost:9870/dfshealth.html#tab-overview
+
+now open another command prompt and execute below command to create directory in hadoop
+hdfs dfs -mkdir -p /user
+
